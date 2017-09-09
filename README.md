@@ -6,7 +6,7 @@ This install.sh script installs laravel 5.5 and php7.1 onto a fresh Cloud9 (c9.i
 ##### Step 1
 Create a new C9.io Workspace with PHP as the template
 ##### Step 2
-Open created Workspace
+Open created Workspace then go to terminal
 ##### Step 3
 Get the install-laravel.sh
 ```sh
