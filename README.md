@@ -1,5 +1,5 @@
 # Cloud9 Laravel 5.5 Installer
-##DO NOT USE THIS IN A PRODUCTION ENVIROMENT - YOU HAVE BEEN WARNED
+## DO NOT USE THIS IN A PRODUCTION ENVIROMENT - YOU HAVE BEEN WARNED
 This installer setups laravel 5.5 and php7.1 onto a fresh Cloud9 (c9.io) workspace. Just run the script, and bam your ready to start programming. 
 
 ## Features
