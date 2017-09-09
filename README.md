@@ -10,7 +10,7 @@ Open created Workspace then go to terminal
 ##### Step 3
 Get the install-laravel.sh
 ```sh
-$ composer require pkeogan/Cloud9-Install-Laravel-5.5
+$ composer require pkeogan/cloud9-install-laravel-5.5
 ```
 ##### Step 4
 Run The Install
