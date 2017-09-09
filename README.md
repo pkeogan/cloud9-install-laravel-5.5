@@ -17,3 +17,5 @@ Run The Install
 ```sh
 $ bash install-laravel.sh
 ```
+
+## This Script's PHP Install was forked from @svpernova09's https://github.com/svpernova09/cloud9-php71
