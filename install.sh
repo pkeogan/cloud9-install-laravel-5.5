@@ -2,6 +2,7 @@
 rm README.md php.ini hello-world.php
 
 # Install PHP 7.1
+# The following PHP script was coded by https://github.com/svpernova09 
 #!/bin/bash
 sudo add-apt-repository ppa:ondrej/php -y
 sudo apt-get update -y
