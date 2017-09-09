@@ -23,6 +23,7 @@ sudo service apache2 restart
 sudo composer self-update
 sudo composer create-project --prefer-dist laravel/laravel ./laravel
 shopt -s dotglob
+sudo chown -R ubuntu:ubuntu laravel
 sudo mv laravel/* ./
 sudo rm -rf laravel
 sudo sed -i 's/DocumentRoot\ \/home\/ubuntu\/workspace/DocumentRoot\ \/home\/ubuntu\/workspace\/public/g' /etc/apache2/sites-enabled/001-cloud9.conf
