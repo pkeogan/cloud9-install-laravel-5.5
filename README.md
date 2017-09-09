@@ -1,5 +1,12 @@
 # Cloud9 Laravel 5.5 Installer
-This install.sh script installs laravel 5.5 and php7.1 onto a fresh Cloud9 (c9.io) workspace. Just run install-larvel.sh, let it run, then go start your app and laravel will be viewable!
+This installer setups laravel 5.5 and php7.1 onto a fresh Cloud9 (c9.io) workspace. Just run the script, and bam your ready to start programming. 
+
+## Features
+- Installs PHP 7.1
+- Removed Default C9 Files
+- Puts laravel in root workspace folder and self cleans
+- Changes DocumentRoot to /public
+- Manages Permissions
 
 ## How To Use
 ### Step 1
@@ -19,6 +26,12 @@ bash install-laravel.sh
 ```
 ### Step 5
 Run the app and you will see the default laravel site.
+
+## To Do
+- Add SQL Server Setup
+- Connnect larvel to SQL DB
+- Auto Edit ENV File
+- Auto rekey 
 
 ## How it Works
 
