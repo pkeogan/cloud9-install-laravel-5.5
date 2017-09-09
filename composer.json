@@ -1,0 +1,7 @@
+{
+    "name": "pkeogan/Cloud9-Install-Laravel-5.5",
+    "description": "Install script that setups Laravel 5.5 and PHP 7.1 on a fresh Cloud9 Workspace. ",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
+}
