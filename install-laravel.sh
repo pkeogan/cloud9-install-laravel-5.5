@@ -1,5 +1,5 @@
 # Clear Existing Workspace
-rm README.md php.ini hello-world.php
+rm php.ini hello-world.php
 
 # Install PHP 7.1
 # The following PHP script was coded by https://github.com/svpernova09 
@@ -18,8 +18,24 @@ sudo a2enmod php7.1
 
 # Install Laravel
 sudo composer self-update
+sudo composer global require 'laravel/installer'
 export PATH=~/.composer/vendor/bin:$PATH
 laravel new
 sudo sed -i 's/DocumentRoot\ \/home\/ubuntu\/workspace/DocumentRoot\ \/home\/ubuntu\/workspace\/public/g' /etc/apache2/sites-enabled/001-cloud9.conf
 
 sudo service apache2 restart
+
+
+# setup npm and nodejs for web mixing
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo npm install
+sudo npm rebuild node-sass
+
+#Install MySQL 5.7y
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.7-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.7-1_all.deb
+
+
+
+
