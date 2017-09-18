@@ -18,7 +18,7 @@ Open created Workspace then go to terminal
 ### Step 3
 Get the install-laravel.sh
 ```sh
-wget "https://raw.githubusercontent.com/pkeogan/cloud9-install-laravel-5.5/v0.1/install-laravel.sh"
+wget "https://raw.githubusercontent.com/pkeogan/cloud9-install-laravel-5.5/master/install-laravel.sh"
 ```
 ### Step 4
 Run The Install
