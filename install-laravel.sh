@@ -1,9 +1,5 @@
-# Clear Existing Workspace
-rm README.md php.ini hello-world.php
-
 # Install PHP 7.1
 # The following PHP script was coded by https://github.com/svpernova09 
-#!/bin/bash
 sudo add-apt-repository ppa:ondrej/php -y
 sudo apt-get update -y
 
@@ -29,5 +25,7 @@ sudo rm -rf laravel
 sudo sed -i 's/DocumentRoot\ \/home\/ubuntu\/workspace/DocumentRoot\ \/home\/ubuntu\/workspace\/public/g' /etc/apache2/sites-enabled/001-cloud9.conf
 sudo composer update
 sudo chmod -R 777 storage
-sudo chown -R ubuntu *
+sudo chown -R comp *
 
+# Clear Existing Workspace
+rm README.md php.ini hello-world.php
