@@ -1,3 +1,6 @@
+# Clear Existing Workspace
+rm README.md php.ini hello-world.php
+
 # Install PHP 7.1
 # The following PHP script was coded by https://github.com/svpernova09 
 sudo add-apt-repository ppa:ondrej/php -y
@@ -26,6 +29,3 @@ sudo sed -i 's/DocumentRoot\ \/home\/ubuntu\/workspace/DocumentRoot\ \/home\/ubu
 sudo composer update
 sudo chmod -R 777 storage
 sudo chown -R ubuntu *
-
-# Clear Existing Workspace
-rm README.md php.ini hello-world.php
