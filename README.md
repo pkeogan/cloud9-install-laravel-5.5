@@ -1,13 +1,13 @@
 # Cloud9 Laravel 5.5 Installer
 ## DO NOT USE THIS IN A PRODUCTION ENVIROMENT - YOU HAVE BEEN WARNED
-This installer setups laravel 5.5 and php7.1 onto a fresh Cloud9 (c9.io) workspace. Just run the script, and bam your ready to start programming. 
+This installer setups laravel 5.5, MySQL 5.7 and php7.1 onto a fresh Cloud9 (c9.io) workspace. Just run the script, do some input, and bam your ready to start programming. 
 
 ## Features
 - Installs PHP 7.1
 - Removed Default C9 Files
-- Puts laravel in root workspace folder and self cleans
+- Puts laravel in root workspace folder
 - Changes DocumentRoot to /public
-- Manages Permissions
+- Upgrades MySQL 5.7
 
 ## How To Use
 ### Step 1
@@ -47,22 +47,6 @@ DB_PASSWORD=
 ```
 ### Step 8, your ready!
 Run the app and you will see the default laravel site.
-
-## To Do
-- Add SQL Server Setup
-- Connnect larvel to SQL DB
-- Auto Edit ENV File
-- Auto rekey 
-
-## How it Works
-
-- Remove existing C9 files
-- Install PHP7.1
-- Restart Apache Server
-- Install Laravel
-- Change DocumentRoot to /public
-- chmod 777 storage
-- Remove install related items
 
 
 This Script's PHP Install was forked from @svpernova09's https://github.com/svpernova09/cloud9-php71
