@@ -16,16 +16,10 @@ sudo cp /etc/apache2/envvars.bak /etc/apache2/envvars
 sudo a2dismod php5
 sudo a2enmod php7.1
 
-sudo service apache2 restart
-
 # Install Laravel
 sudo composer self-update
-sudo composer create-project --prefer-dist laravel/laravel ./laravel
-shopt -s dotglob
-sudo chown -R ubuntu:ubuntu laravel
-sudo mv laravel/* ./
-sudo rm -rf laravel
+export PATH=~/.composer/vendor/bin:$PATH
+laravel new
 sudo sed -i 's/DocumentRoot\ \/home\/ubuntu\/workspace/DocumentRoot\ \/home\/ubuntu\/workspace\/public/g' /etc/apache2/sites-enabled/001-cloud9.conf
-sudo composer update
-sudo chmod -R 777 storage
-sudo chown -R ubuntu *
+
+sudo service apache2 restart
