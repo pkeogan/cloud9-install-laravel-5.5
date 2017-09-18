@@ -26,6 +26,26 @@ Run The Install
 bash install-laravel.sh
 ```
 ### Step 5
+Run the MySQL Upgrade, make sure you select 5.7, default will be 5.6
+```sh
+sudo dpkg -i mysql-apt-config_0.8.7-1_all.deb
+```
+### Step 6
+Run The MySQL Install SH
+```sh
+bash mysql.sh
+```
+If you get any input for passwords, enter blank, and you may need to hit "y" for downloads.
+### Step 7
+Edit your .env DB info. 
+```sh
+...
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+...
+```
+### Step 8, your ready!
 Run the app and you will see the default laravel site.
 
 ## To Do
