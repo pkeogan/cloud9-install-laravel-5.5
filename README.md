@@ -47,7 +47,13 @@ DB_PASSWORD=
 ...
 ```
 ### Step 8, your ready!
-Run the app and you will see the default laravel site.
 
+MAke sure you migrate and run your npm mix
+```sh
+php artisan migrate
+npm run dev
+```
+
+And thats it, your ready to go!
 
 This Script's PHP Install was forked from @svpernova09's https://github.com/svpernova09/cloud9-php71
