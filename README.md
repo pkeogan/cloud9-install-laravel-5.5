@@ -1,4 +1,6 @@
 # Cloud9 Laravel 5.5 Installer
+## Will Not Be Updated (I moved to CodeAnyWhere.com after Amazon Merger) 
+### In the future I will recreate this for CodeAnyWhere Containers
 ## DO NOT USE THIS IN A PRODUCTION ENVIROMENT - YOU HAVE BEEN WARNED
 This installer setups laravel 5.5, MySQL 5.7 and php7.1 onto a fresh Cloud9 (c9.io) workspace. Just run the script, do some input, and bam your ready to start programming. Also gets npm and nodejs ready so you can webmix. 
 
