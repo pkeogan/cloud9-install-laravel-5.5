@@ -18,7 +18,7 @@ sudo a2enmod php7.1
 
 # Install Laravel
 sudo composer self-update
-sudo composer global require 'laravel/installer'
+composer global require 'laravel/installer'
 export PATH=~/.composer/vendor/bin:$PATH
 laravel new
 sudo sed -i 's/DocumentRoot\ \/home\/ubuntu\/workspace/DocumentRoot\ \/home\/ubuntu\/workspace\/public/g' /etc/apache2/sites-enabled/001-cloud9.conf
