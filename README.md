@@ -38,7 +38,7 @@ sudo dpkg -i mysql-apt-config_0.8.7-1_all.deb
 ### Step 6
 Run The MySQL Install SH
 ```sh
-wget "https://raw.githubusercontent.com/pkeogan/cloud9-install-laravel-5.5/master/mysql.sh"
+wget "https://raw.githubusercontent.com/karlkras/cloud9-install-laravel-5.5/master/mysql.sh"
 bash mysql.sh
 ```
 If you get any input for passwords, enter blank, and you may need to hit "y" for downloads.
