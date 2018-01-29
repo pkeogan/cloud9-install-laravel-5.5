@@ -4,6 +4,11 @@
 ## DO NOT USE THIS IN A PRODUCTION ENVIROMENT - YOU HAVE BEEN WARNED
 This installer setups laravel 5.5, MySQL 5.7 and php7.1 onto a fresh Cloud9 (c9.io) workspace. Just run the script, do some input, and bam your ready to start programming. Also gets npm and nodejs ready so you can webmix. 
 
+## Changes for this fork
+- One minor but important change is this installs laravel as normal, not root user.
+
+  Running the laravel install as root is not recommended (the install attempt will say so) and will break the project creation functionality.
+
 ## Features
 - Installs PHP 7.1
 - Removed Default C9 Files
@@ -20,7 +25,7 @@ Open created Workspace then go to terminal
 ### Step 3
 Get the install-laravel.sh
 ```sh
-wget "https://raw.githubusercontent.com/pkeogan/cloud9-install-laravel-5.5/master/install-laravel.sh"
+wget "https://raw.githubusercontent.com/karlkras/cloud9-install-laravel-5.5/master/install-laravel.sh"
 ```
 ### Step 4
 Run The Install
@@ -35,7 +40,7 @@ sudo dpkg -i mysql-apt-config_0.8.7-1_all.deb
 ### Step 6
 Run The MySQL Install SH
 ```sh
-wget "https://raw.githubusercontent.com/pkeogan/cloud9-install-laravel-5.5/master/mysql.sh"
+wget "https://raw.githubusercontent.com/karlkras/cloud9-install-laravel-5.5/master/mysql.sh"
 bash mysql.sh
 ```
 If you get any input for passwords, enter blank, and you may need to hit "y" for downloads.
